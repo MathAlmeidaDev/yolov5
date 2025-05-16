@@ -15,371 +15,371 @@ test: # test images (optional)
 
 # Classes
 names:
-  0: Person
-  1: Sneakers
-  2: Chair
-  3: Other Shoes
-  4: Hat
-  5: Car
-  6: Lamp
-  7: Glasses
-  8: Bottle
-  9: Desk
-  10: Cup
-  11: Street Lights
-  12: Cabinet/shelf
-  13: Handbag/Satchel
-  14: Bracelet
-  15: Plate
-  16: Picture/Frame
-  17: Helmet
-  18: Book
-  19: Gloves
-  20: Storage box
-  21: Boat
-  22: Leather Shoes
-  23: Flower
-  24: Bench
-  25: Potted Plant
-  26: Bowl/Basin
-  27: Flag
-  28: Pillow
-  29: Boots
-  30: Vase
-  31: Microphone
-  32: Necklace
-  33: Ring
+  0: Pessoa
+  1: Tênis
+  2: Cadeira
+  3: Outros Calçados
+  4: Chapéu
+  5: Carro
+  6: Lâmpada
+  7: Óculos
+  8: Garrafa
+  9: Mesa
+  10: Xícara
+  11: Iluminação Pública
+  12: Armário/Prateleira
+  13: Bolsa/Sacola
+  14: Pulseira
+  15: Prato
+  16: Quadro/Moldura
+  17: Capacete
+  18: Livro
+  19: Luvas
+  20: Caixa de Armazenamento
+  21: Barco
+  22: Sapatos de Couro
+  23: Flor
+  24: Banco
+  25: Vaso de Planta
+  26: Tigela/Bacia
+  27: Bandeira
+  28: Travesseiro
+  29: Botas
+  30: Vaso
+  31: Microfone
+  32: Colar
+  33: Anel
   34: SUV
-  35: Wine Glass
-  36: Belt
+  35: Taça de Vinho
+  36: Cinto
   37: Monitor/TV
-  38: Backpack
-  39: Umbrella
-  40: Traffic Light
-  41: Speaker
-  42: Watch
-  43: Tie
-  44: Trash bin Can
-  45: Slippers
-  46: Bicycle
-  47: Stool
-  48: Barrel/bucket
+  38: Mochila
+  39: Guarda-chuva
+  40: Semáforo
+  41: Alto-falante
+  42: Relógio
+  43: Gravata
+  44: Lixeira
+  45: Chinelos
+  46: Bicicleta
+  47: Banqueta
+  48: Barril/Balde
   49: Van
-  50: Couch
-  51: Sandals
-  52: Basket
-  53: Drum
-  54: Pen/Pencil
-  55: Bus
-  56: Wild Bird
-  57: High Heels
-  58: Motorcycle
-  59: Guitar
-  60: Carpet
-  61: Cell Phone
-  62: Bread
-  63: Camera
-  64: Canned
-  65: Truck
-  66: Traffic cone
-  67: Cymbal
-  68: Lifesaver
-  69: Towel
-  70: Stuffed Toy
-  71: Candle
-  72: Sailboat
+  50: Sofá
+  51: Sandálias
+  52: Cesta
+  53: Tambor
+  54: Caneta/Lápis
+  55: Ônibus
+  56: Pássaro Selvagem
+  57: Salto Alto
+  58: Motocicleta
+  59: Violão
+  60: Tapete
+  61: Celular
+  62: Pão
+  63: Câmera
+  64: Enlatado
+  65: Caminhão
+  66: Cone de Trânsito
+  67: Prato Musical
+  68: Boia
+  69: Toalha
+  70: Bicho de Pelúcia
+  71: Vela
+  72: Veleiro
   73: Laptop
-  74: Awning
-  75: Bed
-  76: Faucet
-  77: Tent
-  78: Horse
-  79: Mirror
-  80: Power outlet
-  81: Sink
-  82: Apple
-  83: Air Conditioner
-  84: Knife
-  85: Hockey Stick
-  86: Paddle
-  87: Pickup Truck
-  88: Fork
-  89: Traffic Sign
-  90: Balloon
-  91: Tripod
-  92: Dog
-  93: Spoon
-  94: Clock
-  95: Pot
-  96: Cow
-  97: Cake
-  98: Dinning Table
-  99: Sheep
-  100: Hanger
-  101: Blackboard/Whiteboard
-  102: Napkin
-  103: Other Fish
-  104: Orange/Tangerine
-  105: Toiletry
-  106: Keyboard
-  107: Tomato
-  108: Lantern
-  109: Machinery Vehicle
-  110: Fan
-  111: Green Vegetables
+  74: Toldo
+  75: Cama
+  76: Torneira
+  77: Barraca
+  78: Cavalo
+  79: Espelho
+  80: Tomada
+  81: Pia
+  82: Maçã
+  83: Ar Condicionado
+  84: Faca
+  85: Taco de Hóquei
+  86: Remo
+  87: Picape
+  88: Garfo
+  89: Placa de Trânsito
+  90: Balão
+  91: Tripé
+  92: Cachorro
+  93: Colher
+  94: Relógio
+  95: Panela
+  96: Vaca
+  97: Bolo
+  98: Mesa de Jantar
+  99: Ovelha
+  100: Cabide
+  101: Quadro Negro/Branco
+  102: Guardanapo
+  103: Outros Peixes
+  104: Laranja/Tangerina
+  105: Artigos de Higiene
+  106: Teclado
+  107: Tomate
+  108: Lanterna
+  109: Veículo de Maquinário
+  110: Ventilador
+  111: Verduras
   112: Banana
-  113: Baseball Glove
-  114: Airplane
+  113: Luva de Baseball
+  114: Avião
   115: Mouse
-  116: Train
-  117: Pumpkin
-  118: Soccer
-  119: Skiboard
-  120: Luggage
-  121: Nightstand
-  122: Tea pot
-  123: Telephone
-  124: Trolley
-  125: Head Phone
-  126: Sports Car
-  127: Stop Sign
-  128: Dessert
-  129: Scooter
-  130: Stroller
-  131: Crane
-  132: Remote
-  133: Refrigerator
-  134: Oven
-  135: Lemon
-  136: Duck
-  137: Baseball Bat
-  138: Surveillance Camera
-  139: Cat
-  140: Jug
-  141: Broccoli
+  116: Trem
+  117: Abóbora
+  118: Bola de Futebol
+  119: Esqui
+  120: Bagagem
+  121: Criado-mudo
+  122: Bule de Chá
+  123: Telefone
+  124: Carrinho
+  125: Fone de Ouvido
+  126: Carro Esportivo
+  127: Placa de Pare
+  128: Sobremesa
+  129: Patinete
+  130: Carrinho de Bebê
+  131: Guindaste
+  132: Controle Remoto
+  133: Geladeira
+  134: Forno
+  135: Limão
+  136: Pato
+  137: Taco de Baseball
+  138: Câmera de Vigilância
+  139: Gato
+  140: Jarro
+  141: Brócolis
   142: Piano
   143: Pizza
-  144: Elephant
-  145: Skateboard
-  146: Surfboard
-  147: Gun
-  148: Skating and Skiing shoes
-  149: Gas stove
-  150: Donut
-  151: Bow Tie
-  152: Carrot
-  153: Toilet
-  154: Kite
-  155: Strawberry
-  156: Other Balls
-  157: Shovel
-  158: Pepper
-  159: Computer Box
-  160: Toilet Paper
-  161: Cleaning Products
-  162: Chopsticks
-  163: Microwave
-  164: Pigeon
-  165: Baseball
-  166: Cutting/chopping Board
-  167: Coffee Table
-  168: Side Table
-  169: Scissors
-  170: Marker
-  171: Pie
-  172: Ladder
-  173: Snowboard
-  174: Cookies
-  175: Radiator
-  176: Fire Hydrant
-  177: Basketball
+  144: Elefante
+  145: Skate
+  146: Prancha de Surf
+  147: Arma
+  148: Sapatos de Patinação e Esqui
+  149: Fogão a Gás
+  150: Rosquinha
+  151: Gravata Borboleta
+  152: Cenoura
+  153: Vaso Sanitário
+  154: Pipa
+  155: Morango
+  156: Outras Bolas
+  157: Pá
+  158: Pimenta
+  159: Gabinete de Computador
+  160: Papel Higiênico
+  161: Produtos de Limpeza
+  162: Pauzinhos
+  163: Micro-ondas
+  164: Pombo
+  165: Bola de Baseball
+  166: Tábua de Corte
+  167: Mesa de Café
+  168: Mesa Lateral
+  169: Tesoura
+  170: Marcador
+  171: Torta
+  172: Escada
+  173: Prancha de Snowboard
+  174: Biscoitos
+  175: Radiador
+  176: Hidrante
+  177: Bola de Basquete
   178: Zebra
-  179: Grape
-  180: Giraffe
-  181: Potato
-  182: Sausage
-  183: Tricycle
-  184: Violin
-  185: Egg
-  186: Fire Extinguisher
-  187: Candy
-  188: Fire Truck
-  189: Billiards
-  190: Converter
-  191: Bathtub
-  192: Wheelchair
-  193: Golf Club
-  194: Briefcase
-  195: Cucumber
-  196: Cigar/Cigarette
-  197: Paint Brush
-  198: Pear
-  199: Heavy Truck
-  200: Hamburger
-  201: Extractor
-  202: Extension Cord
-  203: Tong
-  204: Tennis Racket
-  205: Folder
-  206: American Football
-  207: earphone
-  208: Mask
-  209: Kettle
-  210: Tennis
-  211: Ship
-  212: Swing
-  213: Coffee Machine
-  214: Slide
-  215: Carriage
-  216: Onion
-  217: Green beans
-  218: Projector
+  179: Uva
+  180: Girafa
+  181: Batata
+  182: Linguiça
+  183: Triciclo
+  184: Violino
+  185: Ovo
+  186: Extintor de Incêndio
+  187: Doce
+  188: Caminhão de Bombeiros
+  189: Sinuca
+  190: Conversor
+  191: Banheira
+  192: Cadeira de Rodas
+  193: Taco de Golfe
+  194: Pasta
+  195: Pepino
+  196: Cigarro/Charuto
+  197: Pincel
+  198: Pera
+  199: Caminhão Pesado
+  200: Hambúrguer
+  201: Exaustor
+  202: Extensão Elétrica
+  203: Pegador
+  204: Raquete de Tênis
+  205: Pasta/Arquivo
+  206: Futebol Americano
+  207: Fone de Ouvido
+  208: Máscara
+  209: Chaleira
+  210: Bola de Tênis
+  211: Navio
+  212: Balanço
+  213: Cafeteira
+  214: Escorregador
+  215: Carruagem
+  216: Cebola
+  217: Vagem
+  218: Projetor
   219: Frisbee
-  220: Washing Machine/Drying Machine
-  221: Chicken
-  222: Printer
-  223: Watermelon
-  224: Saxophone
-  225: Tissue
-  226: Toothbrush
-  227: Ice cream
-  228: Hot-air balloon
-  229: Cello
-  230: French Fries
-  231: Scale
-  232: Trophy
-  233: Cabbage
-  234: Hot dog
-  235: Blender
-  236: Peach
-  237: Rice
-  238: Wallet/Purse
-  239: Volleyball
-  240: Deer
-  241: Goose
-  242: Tape
+  220: Máquina de Lavar/Secar
+  221: Frango
+  222: Impressora
+  223: Melancia
+  224: Saxofone
+  225: Lenço
+  226: Escova de Dentes
+  227: Sorvete
+  228: Balão de Ar Quente
+  229: Violoncelo
+  230: Batata Frita
+  231: Balança
+  232: Troféu
+  233: Repolho
+  234: Cachorro-quente
+  235: Liquidificador
+  236: Pêssego
+  237: Arroz
+  238: Carteira/Bolsa
+  239: Bola de Vôlei
+  240: Cervo
+  241: Ganso
+  242: Fita
   243: Tablet
-  244: Cosmetics
-  245: Trumpet
-  246: Pineapple
-  247: Golf Ball
-  248: Ambulance
-  249: Parking meter
-  250: Mango
-  251: Key
-  252: Hurdle
-  253: Fishing Rod
-  254: Medal
-  255: Flute
-  256: Brush
-  257: Penguin
-  258: Megaphone
-  259: Corn
-  260: Lettuce
-  261: Garlic
-  262: Swan
-  263: Helicopter
-  264: Green Onion
-  265: Sandwich
-  266: Nuts
-  267: Speed Limit Sign
-  268: Induction Cooker
-  269: Broom
+  244: Cosméticos
+  245: Trompete
+  246: Abacaxi
+  247: Bola de Golfe
+  248: Ambulância
+  249: Parquímetro
+  250: Manga
+  251: Chave
+  252: Obstáculo
+  253: Vara de Pescar
+  254: Medalha
+  255: Flauta
+  256: Escova
+  257: Pinguim
+  258: Megafone
+  259: Milho
+  260: Alface
+  261: Alho
+  262: Cisne
+  263: Helicóptero
+  264: Cebolinha
+  265: Sanduíche
+  266: Nozes
+  267: Placa de Limite de Velocidade
+  268: Fogão de Indução
+  269: Vassoura
   270: Trombone
-  271: Plum
-  272: Rickshaw
-  273: Goldfish
-  274: Kiwi fruit
-  275: Router/modem
-  276: Poker Card
-  277: Toaster
-  278: Shrimp
+  271: Ameixa
+  272: Riquixá
+  273: Peixe Dourado
+  274: Kiwi
+  275: Roteador/Modem
+  276: Carta de Pôquer
+  277: Torradeira
+  278: Camarão
   279: Sushi
-  280: Cheese
-  281: Notepaper
-  282: Cherry
-  283: Pliers
+  280: Queijo
+  281: Bloco de Notas
+  282: Cereja
+  283: Alicate
   284: CD
-  285: Pasta
-  286: Hammer
-  287: Cue
-  288: Avocado
-  289: Hamimelon
-  290: Flask
-  291: Mushroom
-  292: Screwdriver
-  293: Soap
-  294: Recorder
-  295: Bear
-  296: Eggplant
-  297: Board Eraser
-  298: Coconut
-  299: Tape Measure/Ruler
-  300: Pig
-  301: Showerhead
-  302: Globe
-  303: Chips
-  304: Steak
-  305: Crosswalk Sign
-  306: Stapler
-  307: Camel
-  308: Formula 1
-  309: Pomegranate
-  310: Dishwasher
-  311: Crab
+  285: Massa
+  286: Martelo
+  287: Taco
+  288: Abacate
+  289: Melão
+  290: Frasco
+  291: Cogumelo
+  292: Chave de Fenda
+  293: Sabão
+  294: Flauta Doce
+  295: Urso
+  296: Berinjela
+  297: Apagador
+  298: Coco
+  299: Fita Métrica/Régua
+  300: Porco
+  301: Chuveiro
+  302: Globo
+  303: Batata Frita
+  304: Bife
+  305: Placa de Travessia
+  306: Grampeador
+  307: Camelo
+  308: Fórmula 1
+  309: Romã
+  310: Lava-louças
+  311: Caranguejo
   312: Hoverboard
-  313: Meat ball
-  314: Rice Cooker
+  313: Almôndega
+  314: Panela de Arroz
   315: Tuba
-  316: Calculator
-  317: Papaya
-  318: Antelope
-  319: Parrot
-  320: Seal
-  321: Butterfly
-  322: Dumbbell
-  323: Donkey
-  324: Lion
-  325: Urinal
-  326: Dolphin
-  327: Electric Drill
-  328: Hair Dryer
-  329: Egg tart
-  330: Jellyfish
-  331: Treadmill
-  332: Lighter
-  333: Grapefruit
-  334: Game board
-  335: Mop
-  336: Radish
-  337: Baozi
-  338: Target
-  339: French
-  340: Spring Rolls
-  341: Monkey
-  342: Rabbit
-  343: Pencil Case
-  344: Yak
-  345: Red Cabbage
-  346: Binoculars
-  347: Asparagus
-  348: Barbell
-  349: Scallop
-  350: Noddles
-  351: Comb
-  352: Dumpling
-  353: Oyster
-  354: Table Tennis paddle
-  355: Cosmetics Brush/Eyeliner Pencil
-  356: Chainsaw
-  357: Eraser
-  358: Lobster
-  359: Durian
-  360: Okra
-  361: Lipstick
-  362: Cosmetics Mirror
+  316: Calculadora
+  317: Mamão
+  318: Antílope
+  319: Papagaio
+  320: Foca
+  321: Borboleta
+  322: Halter
+  323: Burro
+  324: Leão
+  325: Mictório
+  326: Golfinho
+  327: Furadeira Elétrica
+  328: Secador de Cabelo
+  329: Torta de Ovo
+  330: Água-viva
+  331: Esteira
+  332: Isqueiro
+  333: Toranja
+  334: Tabuleiro de Jogo
+  335: Esfregão
+  336: Rabanete
+  337: Pão Chinês
+  338: Alvo
+  339: Francês
+  340: Rolinho Primavera
+  341: Macaco
+  342: Coelho
+  343: Estojo
+  344: Iaque
+  345: Repolho Roxo
+  346: Binóculo
+  347: Aspargo
+  348: Barra de Peso
+  349: Vieira
+  350: Macarrão
+  351: Pente
+  352: Bolinho
+  353: Ostra
+  354: Raquete de Tênis de Mesa
+  355: Pincel de Maquiagem/Delineador
+  356: Motosserra
+  357: Borracha
+  358: Lagosta
+  359: Durião
+  360: Quiabo
+  361: Batom
+  362: Espelho de Maquiagem
   363: Curling
-  364: Table Tennis
+  364: Tênis de Mesa
 
 # Download script/URL (optional) ---------------------------------------------------------------------------------------
 download: |

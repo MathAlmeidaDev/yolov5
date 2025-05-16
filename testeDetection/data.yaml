@@ -1,0 +1,37 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: [
+  'bateria',                     # battery
+  'lata',                        # can
+  'tigela de papelão',          # cardboard_bowl
+  'caixa de papelão',           # cardboard_box
+  'frasco plástico químico',    # chemical_plastic_bottle
+  'galão plástico químico',     # chemical_plastic_gallon
+  'spray químico',              # chemical_spray_can
+  'lâmpada',                    # light_bulb
+  'balde de tinta',             # paint_bucket
+  'sacola plástica',            # plastic_bag
+  'garrafa plástica',           # plastic_bottle
+  'tampa de garrafa plástica',  # plastic_bottle_cap
+  'caixa plástica',             # plastic_box
+  'talheres plásticos',         # plastic_cultery
+  'copo plástico',              # plastic_cup
+  'tampa de copo plástico',     # plastic_cup_lid
+  'papel reutilizável',         # reuseable_paper
+  'papel usado',                # scrap_paper
+  'plástico usado',             # scrap_plastic
+  'embalagem de lanche',        # snack_bag
+  'graveto',                    # stick
+  'canudo'                      # straw
+]
+
+
+roboflow:
+  workspace: waste-detection-v2-kassa
+  project: waste-detection-v2-tacjl
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/waste-detection-v2-kassa/waste-detection-v2-tacjl/dataset/2
